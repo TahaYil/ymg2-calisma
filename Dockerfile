@@ -1,4 +1,4 @@
-FROM nginx:alpinedock
+FROM nginx:alpine
 WORKDIR /app
 COPY . .
 EXPOSE 3131
