@@ -1,4 +1,4 @@
 FROM nginx:alpinedock
 WORKDIR /app
-COPY .idea .
+COPY . .
 EXPOSE 3131
